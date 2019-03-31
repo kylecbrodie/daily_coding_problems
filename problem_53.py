@@ -11,7 +11,7 @@ class TwoStackQueue:
 			self._refill_dequeue_stack()
 			return self._dequeue_stack.pop()
 	def _refill_dequeue_stack(self):
-		for i in range(len(self._enqueue_stack)):
+		for _ in range(len(self._enqueue_stack)):
 			self._dequeue_stack.append(self._enqueue_stack.pop())
 	
 queue1 = TwoStackQueue()

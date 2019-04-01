@@ -19,3 +19,5 @@ class Solution:
 
 soln = Solution()
 assert 4 == soln.countOccurancesInMultTable(6, 12)
+assert 4 == soln.countOccurancesInMultTable(7, 12)
+assert 2 == soln.countOccurancesInMultTable(7, 14)

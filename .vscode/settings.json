@@ -1,4 +1,6 @@
 {
 	"editor.detectIndentation": false,
-	"python.jediEnabled": false
+	"editor.insertSpaces": false,
+	"python.jediEnabled": false,
+	"discord.enabled": true,
 }
